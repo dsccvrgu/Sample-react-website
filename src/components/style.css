@@ -1,0 +1,77 @@
+.Footer{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: medium;
+    font-weight: 700;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.userCard {
+    padding: 6px;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    background-color: rgba(17, 17, 17, 0.192);
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.425);
+    /* color: #fff; */
+}
+
+.userCard:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    background-color: rgba(128, 125, 127, 0.247);
+}
+
+.imgUser {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.userCard-body {
+    margin: 10px;
+    text-align: center;
+}
+
+.userCard-body h3 {
+    font-weight: 800;
+    color: white;
+}
+
+.userCard-body p {
+    font-size: small;
+    font-weight: 700;
+    opacity: .9;
+    color: white;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #070707 0%, #666461 51%, #f7efef 100%);
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0.5px solid white ;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-size: small;
+    border-radius: 18px;
+    font-weight: 700;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 700;
+    text-shadow: black;
+}
